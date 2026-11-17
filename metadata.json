@@ -1,0 +1,8 @@
+{
+  "name": "The Cheese Hub",
+  "description": "Premium fast-food restaurant in Islamabad specializing in gourmet cheeseburgers, crispy chicken burgers, loaded cheese fries, wraps, and cheesy meal deals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

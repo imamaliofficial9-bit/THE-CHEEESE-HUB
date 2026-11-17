@@ -1,0 +1,1020 @@
+# MASTER PROMPT — BUILD A PREMIUM, FULLY RESPONSIVE RESTAURANT WEBSITE FOR THE CHEESE HUB
+
+Act as a world-class UI/UX designer, senior frontend developer, creative director, and restaurant branding specialist. Build a complete, production-quality, visually stunning, fully responsive restaurant website for **THE CHEESE HUB**.
+
+The website must look like a professionally designed website created by a premium digital agency for a real restaurant client. Do not create a basic template, generic restaurant website, or simple landing page. Focus on exceptional visual presentation, premium food photography, conversion-focused design, smooth interactions, and an excellent user experience.
+
+Use the uploaded reference image as the primary visual inspiration.
+
+**IMPORTANT BRAND INSTRUCTION:** Preserve and use the original Cheese Hub logo from the uploaded reference image. The logo is the only brand asset that should be retained from the reference. Use the business name THE CHEESE HUB as specified. Do not copy the original advertisement's slogan, exact composition, or other copyrighted creative elements. Develop an original website identity around the same black, golden-yellow, white, and delicious-food visual direction.
+
+---
+
+# 1. PROJECT OVERVIEW
+
+**Business Name:** THE CHEESE HUB
+
+**Business Category:** Restaurant / Fast Food / Burger Restaurant
+
+**Business Type:** Premium fast-food restaurant specializing in burgers, cheesy meals, loaded fries, sandwiches, snacks, and other delicious fast-food items.
+
+**Target Audience:**
+- Burger and fast-food lovers.
+- Students and young adults.
+- Families and groups of friends.
+- Customers who enjoy cheesy food and delicious comfort meals.
+- People looking for convenient takeaway and food delivery.
+
+**Primary Website Goals:**
+1. Generate food orders.
+2. Encourage customers to explore the menu.
+3. Increase takeaway and delivery inquiries.
+4. Make it easy for customers to contact the restaurant.
+5. Showcase food products through premium photography.
+6. Build customer trust and a recognizable restaurant identity.
+
+**Primary CTA:** ORDER NOW
+
+**Secondary CTA:** EXPLORE OUR MENU
+
+**Brand Personality:**
+- Bold.
+- Modern.
+- Energetic.
+- Delicious.
+- Youthful.
+- Premium.
+- Friendly.
+- Memorable.
+
+The entire website should communicate one clear message: delicious food, generous cheese, satisfying flavors, and an unforgettable fast-food experience.
+
+---
+
+# 2. VISUAL DIRECTION AND DESIGN SYSTEM
+
+Create a dark, premium, food-focused visual identity.
+
+The design should combine:
+- Luxury black restaurant aesthetics.
+- Bold golden-yellow typography.
+- Large appetizing food photography.
+- Elegant white typography.
+- Warm food-inspired lighting.
+- Subtle gradients.
+- Modern layouts.
+- Clean spacing.
+- Premium editorial-style compositions.
+
+Avoid a generic white restaurant template.
+
+The overall website should feel like a modern burger brand with the visual quality of an international fast-food franchise.
+
+### Color Palette
+
+Use the following consistent color system:
+
+Primary background:
+- Deep Black: #080808
+- Charcoal Black: #111111
+- Dark Surface: #181818
+
+Brand accent:
+- Cheese Yellow: #FFC400
+- Golden Yellow: #FFB800
+- Warm Gold: #EBA900
+
+Typography:
+- Pure White: #FFFFFF
+- Soft White: #F3F3F3
+- Muted Gray: #A5A5A5
+
+Additional accents:
+- Tomato Red: #E94B35
+- Warm Orange: #E88A26
+
+Use yellow strategically for important headlines, prices, icons, active navigation links, and primary buttons.
+
+Use black and charcoal for the majority of the background.
+
+Maintain strong contrast and accessibility.
+
+---
+
+# 3. TYPOGRAPHY
+
+Use a combination of bold display typography and modern readable sans-serif typography.
+
+Recommended fonts:
+- Headings: Anton, Bebas Neue, or Oswald.
+- Body: Inter or Poppins.
+- Small labels: Inter Medium.
+
+Typography direction:
+- Large uppercase headings.
+- Bold condensed display text.
+- Clear visual hierarchy.
+- Generous headline spacing.
+- Short, readable descriptions.
+- Highlight important words in golden yellow.
+
+Use oversized typography in the hero section.
+
+Example heading treatment:
+
+"BIG FLAVORS."
+"MORE CHEESE."
+"PURE HAPPINESS."
+
+This is original website copy, not text to reproduce from the reference advertisement.
+
+Use responsive font sizing with CSS clamp().
+
+---
+
+# 4. HEADER AND NAVIGATION
+
+Create a premium sticky navigation bar.
+
+### Desktop Header
+
+Layout:
+- Left: Original uploaded Cheese Hub logo.
+- Center: Navigation links.
+- Right: Prominent ORDER NOW button.
+
+Navigation links:
+- Home
+- About Us
+- Our Menu
+- Specials
+- Contact
+
+Design:
+- Deep black background.
+- Slight transparency.
+- Subtle backdrop blur.
+- Thin dark-gray bottom border.
+- Comfortable horizontal spacing.
+- White navigation typography.
+- Golden-yellow hover states.
+
+The logo should be clearly visible and maintain its original proportions. Do not redraw, distort, or replace it with generated text.
+
+When the user scrolls down, make the header slightly more compact while keeping it accessible.
+
+### Mobile Header
+
+- Original logo on the left.
+- Compact hamburger menu on the right.
+- Slide-out or dropdown navigation.
+- Large touch-friendly navigation links.
+- Clearly visible ORDER NOW action.
+
+The mobile menu must open and close smoothly.
+
+---
+
+# 5. HERO SECTION — MOST IMPORTANT SECTION
+
+Create an extraordinary, visually powerful hero section inspired by the uploaded food advertisement.
+
+The hero should immediately communicate the restaurant's identity and make visitors hungry.
+
+### Desktop Layout
+
+Use a cinematic two-column composition.
+
+Left column:
+- Small yellow eyebrow label: "WELCOME TO THE CHEESE EXPERIENCE"
+- Large, bold, multi-line headline.
+- Highlight selected words in golden yellow.
+- Short engaging description.
+- Two CTA buttons.
+- Optional small trust indicators.
+
+Suggested headline:
+
+"CRAVING SOMETHING
+EXTRA CHEESY?"
+
+Make "EXTRA CHEESY" golden yellow.
+
+Description:
+
+"From juicy burgers to loaded cheesy favorites, discover food made to satisfy every craving."
+
+CTA buttons:
+1. ORDER NOW — yellow filled button with black text.
+2. EXPLORE MENU — transparent button with white border.
+
+Right column:
+- Large, ultra-realistic gourmet cheeseburger image.
+- Burger should look fresh, juicy, and professionally photographed.
+- Golden toasted sesame bun.
+- Melted cheddar cheese.
+- Fresh lettuce.
+- Tomato and onion.
+- Crispy chicken or beef patty.
+- Delicious sauces.
+- Soft dramatic studio lighting.
+
+The burger image should be the visual centerpiece.
+
+Use a dark background with a subtle radial golden glow behind the burger.
+
+Add a subtle shadow beneath the burger to create depth.
+
+### Alternative Hero Composition
+
+On larger desktop screens, allow the burger image to overlap slightly with the dark background and extend toward the center of the layout.
+
+Use decorative elements such as:
+- Small yellow circular accents.
+- Subtle floating ingredient graphics.
+- Minimal curved lines.
+- Small promotional labels.
+
+Do not overcrowd the hero.
+
+### Mobile Hero
+
+- Stack content vertically.
+- Display the headline first.
+- Keep the heading large but readable.
+- Show the burger image prominently below the heading.
+- Place CTA buttons beneath the description.
+- Maintain comfortable spacing.
+- Avoid horizontal overflow.
+
+The hero should look exceptional at 360px, 390px, 430px, tablet, and desktop widths.
+
+---
+
+# 6. TRUST AND BRAND HIGHLIGHTS
+
+Immediately after the hero, create a compact brand-highlight strip.
+
+Use three or four visual highlights:
+
+- Freshly Prepared.
+- Loaded With Flavor.
+- Made For Food Lovers.
+- Easy Ordering.
+
+Design:
+- Dark charcoal background.
+- Minimal icons.
+- Yellow icon accents.
+- White labels.
+- Thin vertical separators on desktop.
+
+On mobile, use a compact two-column grid.
+
+Do not invent certifications, awards, customer counts, or unsupported claims.
+
+---
+
+# 7. ABOUT THE CHEESE HUB
+
+Create a stylish About section that introduces the restaurant.
+
+### Layout
+
+Desktop:
+- Left: Large food-related image showing a delicious burger meal.
+- Right: Text content.
+
+Mobile:
+- Image first.
+- Text below.
+
+Small eyebrow:
+"OUR STORY"
+
+Headline:
+"GOOD FOOD. BIG FLAVORS. GREAT MOMENTS."
+
+Description:
+
+"At The Cheese Hub, we believe great food brings people together. From delicious burgers and cheesy favorites to satisfying sides, our menu is all about bold flavors, satisfying bites, and food worth coming back for."
+
+Include three short feature highlights:
+- Flavor-packed favorites.
+- Freshly prepared meals.
+- Food made for sharing.
+
+CTA:
+"DISCOVER OUR MENU"
+
+Use a visually balanced composition with generous spacing.
+
+---
+
+# 8. FEATURED MENU SECTION
+
+This is one of the most important sections because the website needs to convert visitors into customers.
+
+Section eyebrow:
+"OUR FAVORITES"
+
+Main heading:
+"THE MENU THAT HITS DIFFERENT."
+
+Supporting description:
+"Discover your next favorite bite from our delicious selection."
+
+Create a premium food menu with image-based product cards.
+
+### Menu Categories
+
+Include:
+- Burgers.
+- Chicken Burgers.
+- Loaded Fries.
+- Sandwiches.
+- Wraps.
+- Snacks.
+- Drinks.
+- Meal Deals.
+
+### Product Cards
+
+Every product card should include:
+
+1. High-quality food image.
+2. Product name.
+3. Short appetizing description.
+4. Price.
+5. Optional category label.
+6. ADD TO ORDER button.
+
+Example products:
+
+**Classic Cheeseburger**
+
+Description: "A delicious burger with melted cheese, fresh vegetables, and signature sauce."
+
+**Crispy Chicken Burger**
+
+Description: "Crispy chicken, fresh lettuce, and creamy sauce in a toasted bun."
+
+**Loaded Cheese Fries**
+
+Description: "Golden crispy fries topped with rich melted cheese and flavorful sauces."
+
+**Double Cheese Burger**
+
+Description: "A satisfying double-patty burger layered with melted cheese and fresh toppings."
+
+**Chicken Wrap**
+
+Description: "A flavorful chicken wrap with fresh ingredients and delicious sauce."
+
+**Crispy Chicken Bites**
+
+Description: "Crispy, golden chicken bites perfect for sharing."
+
+Important:
+- Use editable product data.
+- Make prices easy to update.
+- Do not invent actual restaurant prices. If no prices are supplied, use clearly editable sample values and mark them in the source data for client confirmation.
+- Do not invent unavailable menu products as verified restaurant offerings.
+
+### Card Design
+
+- Dark charcoal card background.
+- Rounded corners.
+- Large food image at the top.
+- Product title in white.
+- Price in golden yellow.
+- Description in muted gray.
+- Yellow ADD TO ORDER button.
+- Subtle border.
+- Smooth hover animation.
+- Slight image zoom on hover.
+- Soft golden glow when hovering.
+
+Desktop:
+- Four cards per row on wide screens where space permits.
+
+Tablet:
+- Two cards per row.
+
+Mobile:
+- One or two cards per row depending on available width and readability.
+
+Include category filters with interactive behavior.
+
+When users select a category, only matching products should appear.
+
+Add a VIEW FULL MENU CTA.
+
+---
+
+# 9. SPECIAL OFFERS AND COMBOS
+
+Create a visually striking promotional section.
+
+Section eyebrow:
+"DEALS YOU'LL LOVE"
+
+Headline:
+"MORE FOOD. MORE FUN."
+
+Design this section differently from the menu section.
+
+Use a rich dark background with subtle golden gradient lighting.
+
+Create three promotional cards:
+
+1. Burger Combo.
+2. Chicken Meal.
+3. Loaded Fries Deal.
+
+Each card should include:
+- Premium food photography.
+- Deal title.
+- Short description.
+- Clearly visible price or editable price field.
+- ORDER THIS DEAL button.
+
+Use one featured promotional card that is slightly larger than the others.
+
+Use golden-yellow accents and tasteful decorative graphics.
+
+Do not invent discounts, percentage savings, limited-time claims, or actual prices without supplied business information. Make promotional details editable.
+
+---
+
+# 10. SIGNATURE FOOD EXPERIENCE SECTION
+
+Create an immersive editorial-style food showcase.
+
+Use a large, wide, ultra-realistic food photograph as the main visual.
+
+Display a large headline:
+
+"MADE TO SATISFY EVERY CRAVING."
+
+Supporting copy:
+
+"Every bite brings together delicious ingredients, bold flavors, and the cheesy goodness you love."
+
+Use:
+- Large cinematic image.
+- Dark gradient overlay where text overlaps the image.
+- Oversized typography.
+- Yellow-highlighted keywords.
+- Minimal layout.
+
+This section should feel like a premium restaurant advertising campaign.
+
+---
+
+# 11. WHY CHOOSE US SECTION
+
+Create a clean feature grid.
+
+Headline:
+"WHY FOOD LOVERS CHOOSE US"
+
+Use four cards:
+
+**Delicious Flavors**
+"Enjoy satisfying food packed with flavor."
+
+**Fresh Preparation**
+"Food prepared with attention to quality and taste."
+
+**Something For Everyone**
+"Explore a variety of burgers, sides, snacks, and more."
+
+**Easy Ordering**
+"Make ordering your favorite food simple and convenient."
+
+Design:
+- Dark background.
+- Minimal line icons.
+- Yellow icon accents.
+- White headings.
+- Gray descriptions.
+- Subtle card borders.
+- Small hover animations.
+
+---
+
+# 12. FOOD GALLERY
+
+Create an attractive image gallery featuring food photography.
+
+Section heading:
+"A FEAST FOR YOUR EYES"
+
+Include 6–8 high-quality images:
+- Gourmet cheeseburger.
+- Crispy chicken burger.
+- Loaded fries.
+- Chicken wrap.
+- Cheese-loaded meal.
+- Freshly prepared fast-food platter.
+- Delicious sandwich.
+- Close-up food photography.
+
+Use an asymmetrical masonry-style layout on desktop.
+
+On mobile, use a clean two-column grid.
+
+Interactions:
+- Smooth hover zoom.
+- Subtle dark overlay.
+- Optional image lightbox.
+- Smooth opening and closing transitions.
+
+Every image must be real generated food imagery or a high-quality relevant image asset.
+
+Do not use blank image containers.
+
+---
+
+# 13. CUSTOMER TESTIMONIALS
+
+Create a testimonial section with a premium dark design.
+
+Headline:
+"WHAT FOOD LOVERS SAY"
+
+Create a carousel with 3–4 editable testimonial cards.
+
+Each card should support:
+- Customer name.
+- Review text.
+- Optional star rating.
+- Optional customer image.
+
+IMPORTANT:
+Do not fabricate real customer testimonials or claim that fictional reviews are verified. Use clearly labeled editable sample content until genuine customer reviews are provided.
+
+Design:
+- Dark charcoal cards.
+- White typography.
+- Yellow stars.
+- Rounded corners.
+- Smooth carousel navigation.
+
+---
+
+# 14. LOCATION AND CONTACT SECTION
+
+Create a conversion-focused contact section.
+
+Headline:
+"COME VISIT THE CHEESE HUB"
+
+Use the available business information from the reference:
+
+**Location:**
+AL Rafay Arcade, E 17/3, ISB
+
+**Phone:**
+0330-6669211
+
+Present:
+- Location icon.
+- Phone icon.
+- Address.
+- Clickable telephone number.
+- Google Maps integration or a clearly working map link based on the provided address.
+
+Add a prominent CTA:
+
+"GET IN TOUCH"
+
+Include a contact form with:
+- Full Name.
+- Phone Number.
+- Email Address.
+- Message.
+- Submit button.
+
+Add proper form validation.
+
+The form must show a clear success or error message.
+
+Do not pretend to send messages if no backend or form integration exists. Prepare a real integration-ready form structure.
+
+---
+
+# 15. ORDERING EXPERIENCE
+
+Ordering should be one of the main conversion paths.
+
+Implement a functional frontend ordering experience.
+
+Required functionality:
+- Add products to cart.
+- Remove products from cart.
+- Increase and decrease quantities.
+- Calculate subtotal.
+- Display total quantity.
+- Show cart contents.
+- Update totals dynamically.
+- Display an empty-cart state.
+- Provide a clear checkout CTA.
+
+Create a slide-out shopping cart drawer.
+
+Cart design:
+- Dark charcoal background.
+- White text.
+- Golden-yellow prices.
+- Clear quantity controls.
+- Modern rounded buttons.
+
+Where supported, integrate WhatsApp ordering.
+
+Use the restaurant's supplied phone number in the WhatsApp ordering configuration.
+
+Create a prefilled order message containing:
+- Customer name.
+- Selected products.
+- Quantities.
+- Order total.
+- Pickup or delivery preference.
+
+Use the appropriate international phone-number format after verifying the restaurant's country code.
+
+Do not claim that an order has been placed until the actual ordering channel confirms it.
+
+If online payment or delivery integrations are unavailable, create a clearly functioning WhatsApp-based order handoff instead of a fake checkout system.
+
+---
+
+# 16. NEWSLETTER / FINAL CTA SECTION
+
+Create a final promotional section before the footer.
+
+Headline:
+"YOUR NEXT FAVORITE BITE IS WAITING."
+
+Supporting text:
+"Explore our menu and discover something delicious today."
+
+CTA:
+"ORDER NOW"
+
+Use:
+- Full-width dark background.
+- Subtle golden radial glow.
+- Large typography.
+- A delicious food image as a decorative visual.
+- Strong contrast.
+
+Keep this section simple and conversion-focused.
+
+---
+
+# 17. FOOTER DESIGN
+
+Create a professional premium footer.
+
+Background:
+Deep black (#080808).
+
+Four-column desktop layout:
+
+**Column 1 — Brand**
+- Original Cheese Hub logo.
+- Short restaurant description.
+- Social media icons.
+
+**Column 2 — Quick Links**
+- Home.
+- About.
+- Menu.
+- Specials.
+- Contact.
+
+**Column 3 — Contact**
+- AL Rafay Arcade, E 17/3, ISB.
+- 0330-6669211.
+- Clickable phone link.
+
+**Column 4 — Opening Hours**
+- Create an editable opening-hours configuration.
+- Do not invent actual opening hours.
+- Display only verified hours when supplied.
+
+Footer bottom:
+- Thin separator line.
+- Copyright notice.
+- Privacy Policy.
+- Terms & Conditions.
+
+Use subtle yellow hover effects.
+
+Keep the footer clean, organized, and professional.
+
+---
+
+# 18. IMAGE GENERATION AND FOOD PHOTOGRAPHY
+
+This requirement is extremely important.
+
+Automatically generate or source high-quality, visually consistent food photography for the entire website wherever image-generation capabilities are available.
+
+Do not use:
+- Broken images.
+- Empty image boxes.
+- Gray placeholder rectangles.
+- Random unrelated food images.
+- Cartoon food illustrations.
+- Low-quality stock images.
+- Blurry photographs.
+- Repeated images pretending to represent different products.
+
+### Required Images
+
+Generate the following visual assets:
+
+1. Hero: Ultra-realistic gourmet cheeseburger with melted cheddar, sesame bun, fresh vegetables, and dramatic studio lighting.
+2. About: Premium burger meal with fries.
+3. Classic cheeseburger product image.
+4. Crispy chicken burger product image.
+5. Double cheeseburger product image.
+6. Loaded cheese fries product image.
+7. Chicken wrap product image.
+8. Crispy chicken bites product image.
+9. Burger combo promotional image.
+10. Chicken meal promotional image.
+11. Signature food banner image.
+12. Food gallery images.
+
+### Photography Style
+
+All images must have:
+- Professional commercial food photography quality.
+- Realistic textures.
+- Natural-looking melted cheese.
+- Appetizing food presentation.
+- Detailed ingredients.
+- Warm cinematic lighting.
+- Sharp focus.
+- Rich contrast.
+- Premium restaurant advertising aesthetics.
+
+Use dark backgrounds where appropriate so the food stands out.
+
+Keep image styling visually consistent throughout the website.
+
+Use optimized image formats and appropriate responsive image sizes.
+
+If image generation is unavailable, use suitable real image assets from reliable sources. Never leave an image area empty.
+
+---
+
+# 19. ANIMATIONS AND MICRO-INTERACTIONS
+
+Add polished, subtle animations.
+
+The animations should make the website feel premium, not distracting.
+
+### Page Loading
+- Smooth entrance animations.
+- Subtle fade-in.
+- Gentle upward movement of hero content.
+
+### Scroll Animations
+- Reveal sections as they enter the viewport.
+- Fade and slide elements into view.
+- Stagger card animations.
+- Use subtle image reveal effects.
+
+### Button Interactions
+- Smooth background transitions.
+- Slight hover lift.
+- Subtle yellow glow.
+- Clear pressed states.
+
+### Product Cards
+- Gentle image zoom.
+- Slight card elevation.
+- Border color transition.
+- Smooth button interactions.
+
+### Navigation
+- Smooth scrolling to sections.
+- Active navigation states.
+- Animated mobile menu.
+
+### Shopping Cart
+- Smooth slide-in drawer.
+- Animated quantity updates.
+- Clear feedback after adding a product.
+
+### Performance
+- Use lightweight CSS transitions.
+- Avoid excessive animation libraries.
+- Respect prefers-reduced-motion.
+- Do not allow animations to delay access to content.
+
+---
+
+# 20. RESPONSIVE DESIGN REQUIREMENTS
+
+The entire website must be fully responsive.
+
+Do not simply shrink the desktop design.
+
+Design specifically for different screen sizes.
+
+### Desktop: 1200px and above
+- Spacious layouts.
+- Large hero composition.
+- Multiple-column product grids.
+- Premium image proportions.
+- Full navigation bar.
+- Large editorial food sections.
+
+### Tablet: 768px–1199px
+- Adapted hero columns.
+- Reduced typography sizes.
+- Two-column product grids.
+- Compact navigation.
+- Balanced spacing.
+- Proper image scaling.
+
+### Mobile: 320px–767px
+- Mobile-first layout.
+- Compact navigation.
+- Single-column hero composition.
+- Large readable buttons.
+- Appropriate image sizing.
+- Responsive product grids.
+- Touch-friendly controls.
+- No horizontal scrolling.
+- Properly spaced content.
+- Easy-to-use ordering experience.
+
+Test at:
+- 320px.
+- 360px.
+- 375px.
+- 390px.
+- 430px.
+- 768px.
+- 1024px.
+- 1280px.
+- 1440px.
+- 1920px.
+
+Every section must maintain excellent visual quality at all breakpoints.
+
+---
+
+# 21. TECHNICAL IMPLEMENTATION
+
+Build a complete, functional website rather than a static visual mockup.
+
+Preferred technology:
+- React.
+- TypeScript.
+- Modern CSS or Tailwind CSS.
+- Reusable components.
+- Lucide icons.
+- Modern responsive layout techniques.
+
+Use the framework and project structure supported by the current Google AI Studio environment.
+
+### Code Quality
+
+Requirements:
+- Clean component architecture.
+- Reusable UI components.
+- Organized project structure.
+- Consistent design tokens.
+- Maintainable CSS.
+- Semantic HTML.
+- Accessible navigation.
+- Proper image alt text.
+- Keyboard-friendly controls.
+- Form validation.
+- Responsive components.
+- No unnecessary dependencies.
+- No console errors.
+
+### Functional Requirements
+
+All visible interactive elements must work.
+
+Implement:
+- Navigation links.
+- Mobile menu.
+- Menu category filters.
+- Product cards.
+- Shopping cart.
+- Quantity controls.
+- Contact form validation.
+- Click-to-call functionality.
+- Map link.
+- WhatsApp order handoff.
+- Smooth scrolling.
+- Gallery interactions.
+- Testimonial carousel.
+
+Do not add buttons that do nothing.
+
+Do not create fake functionality.
+
+Keep all editable business information, menu products, prices, contact details, and opening hours in centralized configuration or data files.
+
+---
+
+# 22. SEO AND PERFORMANCE
+
+Make the website search-engine friendly.
+
+Include:
+- Appropriate page title.
+- Meta description.
+- Open Graph metadata.
+- Restaurant-related semantic headings.
+- Descriptive image alt text.
+- Local business structured data where accurate information is available.
+- Clean URL structure.
+- Proper heading hierarchy.
+- Sitemap-ready structure.
+
+Optimize:
+- Image loading.
+- Image dimensions.
+- Lazy loading below the fold.
+- Font loading.
+- CSS.
+- JavaScript.
+- Mobile rendering.
+
+Aim for excellent Core Web Vitals and fast loading on mobile networks.
+
+---
+
+# 23. FINAL DESIGN QUALITY CHECKLIST
+
+Before considering the website complete, verify all of the following:
+
+1. The original uploaded Cheese Hub logo is used without distortion.
+2. The design maintains a premium black-and-golden-yellow identity.
+3. The hero section is visually impressive.
+4. Food imagery looks realistic and appetizing.
+5. All major sections are fully designed.
+6. The menu cards have consistent styling.
+7. All CTA buttons have meaningful actions.
+8. The cart updates correctly.
+9. WhatsApp ordering works through the configured contact number.
+10. The contact form validates its fields.
+11. The mobile menu works.
+12. All layouts adapt properly to different screen sizes.
+13. No broken image links.
+14. No placeholder image boxes.
+15. No horizontal overflow.
+16. No overlapping content.
+17. No fake testimonials or unsupported business claims.
+18. No nonfunctional buttons.
+19. No console errors.
+20. The website feels like a real, premium restaurant brand.
+
+---
+
+# 24. CREATIVE DIRECTION — FINAL INSTRUCTIONS
+
+Think like an award-winning restaurant branding agency.
+
+The finished website should combine:
+
+- The dramatic black-and-yellow food advertising direction of the uploaded reference.
+- Modern premium restaurant website aesthetics.
+- Bold typography.
+- Cinematic cheeseburger photography.
+- Clean and intuitive navigation.
+- Beautiful menu presentation.
+- Functional ordering interactions.
+- Conversion-focused content.
+- Professional responsive layouts.
+
+The first screen must create an immediate visual impact.
+
+The menu must make visitors want to order.
+
+The ordering experience must be simple.
+
+The contact section must make the restaurant easy to reach.
+
+The entire website must feel visually consistent, carefully crafted, and ready to present to a real client.
+
+**MOST IMPORTANT: DO NOT STOP AFTER CREATING THE HERO SECTION. BUILD THE COMPLETE WEBSITE WITH EVERY SECTION, RESPONSIVE LAYOUT, FOOD IMAGES, FUNCTIONAL INTERACTIONS, AND PROFESSIONAL FOOTER.**
+
+Do not return just a design description, wireframe, or tutorial. Actually generate and implement the complete working website in the available Google AI Studio project.
+
+Prioritize visual excellence, functionality, responsiveness, and professional finishing quality.
+
+**FINAL RESULT: A PREMIUM, MODERN, FULLY RESPONSIVE, FOOD-FOCUSED WEBSITE FOR THE CHEESE HUB THAT LOOKS READY FOR REAL-WORLD BUSINESS USE.**

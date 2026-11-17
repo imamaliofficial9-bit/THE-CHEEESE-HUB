@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Oswald", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-cheese: #FFC400;
+  --color-gold: #FFB800;
+  --color-warm-gold: #EBA900;
+  --color-obsidian: #080808;
+  --color-charcoal: #111111;
+  --color-surface: #181818;
+  --color-muted: #A5A5A5;
+  --color-tomato: #E94B35;
+  --color-ember: #E88A26;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #080808;
+    color: #ffffff;
+    font-family: var(--font-sans);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  :focus-visible {
+    outline: 2px solid #FFC400;
+    outline-offset: 2px;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.hero-radial-glow {
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(255, 196, 0, 0.22) 0%,
+    rgba(235, 169, 0, 0.08) 38%,
+    rgba(8, 8, 8, 0) 70%
+  );
+}
+
+.cta-radial-glow {
+  background: radial-gradient(
+    ellipse at 50% 50%,
+    rgba(255, 196, 0, 0.14) 0%,
+    rgba(232, 138, 38, 0.05) 45%,
+    rgba(8, 8, 8, 0) 75%
+  );
+}
